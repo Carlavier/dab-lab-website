@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Landmark, DollarSign, Heart, Users, ArrowRight, Cpu, Database, Terminal, Code } from 'lucide-react';
-import { Button } from './components/ui/Button';
-import { Input } from './components/ui/Input';
+import { Input } from './components/ui/input';
+import { Button } from './components/ui/button';
 
 export default function App() {
   const [email, setEmail] = useState('');
